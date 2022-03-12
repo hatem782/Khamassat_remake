@@ -1,0 +1,50 @@
+.navbar {
+  background-color: white;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+
+  padding: 0px 0px 0px 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px #edeef4;
+}
+
+.buttons {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_menu {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  margin: 0px 0px 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.menu:active {
+  background-color: #f7f9fc;
+}
+
+.logo_menu img {
+  width: 135px;
+}

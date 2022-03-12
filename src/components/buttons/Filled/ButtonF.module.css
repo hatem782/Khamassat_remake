@@ -1,0 +1,26 @@
+.button {
+  background-color: transparent;
+  padding: 10px 30px;
+  justify-self: flex-end;
+
+  width: 150px;
+
+  outline: none;
+  border: none;
+  color: white;
+  background-color: #2caae2;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.button svg {
+  font-size: 25px;
+  margin: 0px 0px 0px 5px;
+}
